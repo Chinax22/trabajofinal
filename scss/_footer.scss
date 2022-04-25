@@ -1,0 +1,6 @@
+.footDetallePrimero{
+    background-color: map-get($map:$paleta,$key:color4);
+}
+.footDetalleSegundo{
+    background-color: map-get($map:$paleta,$key:color5);
+}

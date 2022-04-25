@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.encabezado h3 {
+  font-family: "Parisienne", cursiva;
+  font-size: 1.5em;
+  text-align: center; }
+  .encabezado h3 em {
+    font-family: "Roboto", sans-serif; }
+
+.navDetalle {
+  background-color: #c6e1f1;
+  background: linear-gradient(to bottom, #c6e1f1, #96cdeb);
+  font-family: "Roboto", sans-serif;
+  padding: 5px 20px; }
+
+.btn-nav {
+  border: none; }
+  .btn-nav:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+.footDetallePrimero {
+  background-color: #cee6f0; }
+
+.footDetalleSegundo {
+  background-color: #f4d9ec; }
+
+
+
+  h1{
+    font-size: 3em;
+    font-family: 'Parisienne', cursiva;
+    font-weight: bold;
+    text-decoration-line: underline;
+  text-decoration-style: solid
+}
+h2{
+  font-size: 2em;
+  font-family: 'Parisienne', cursiva;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-style: solid
+}
+h3,
+h4{
+    font-size: 1.5em;
+    font-family: 'Parisienne', cursiva;
+}
+h5{
+  font-size: 1em;
+  font-family: 'Parisienne', cursiva;
+  font-weight: bold;
+}
+p{
+  font-family: "Roboto", sans-serif;
+}
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-sm-12 h3{
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+}
+.col-sm-12 h2:first-of-type{
+  font-weight: bold;
+}
+.col-sm-12 h3:before,
+.col-sm-12 h3:after{
+  content: "❣"
+}
+
+img[src$="img/dermopulidocorporal.jpeg"]{
+  width: 300px;
+  height: 300px;
+}
+img[src$="img/puntadediamante.jpeg"]{
+  width: 300px;
+  height: 300px;
+}
+
+body{
+  background-color: #f0f8fa;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.avatar{
+  border-radius: 50%;
+  border-style: groove;
+  width: 150px;
+}
+.avLogo{
+  border-radius: 50%;
+  border-style: groove;
+  width: 50px;
+}
+.icono{
+  width: 50px;
+}
+.textoHead{
+  display: inline;
+  margin-left: -30px;
+}
+.texto{
+  font-size: 2em;
+  font-family: 'Parisienne', cursiva;
+}
+
+/* From uiverse.io by @fanishah */
+.button {
+  font-family: inherit;
+  font-weight: 400;
+  background: #f4d9ec;
+  color: white;
+  padding: 0.35em 0;
+  font-size: 17px;
+  border: none;
+  border-radius: 0.7em;
+  letter-spacing: 0.08em;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 2.1em;
+  padding-left: 3em;
+  padding-right: 0.7em;
+}
+.button .icon {
+  background: #fff;
+  margin-right: 1em;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.5em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0.3em;
+  transition: all .7s;
+}
+.shere {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-left: 4px;
+}
+.button:hover .icon {
+  width: calc(100% - 0.6rem);
+}
+.button:hover .shere {
+  width: calc(100% - 0.6rem);
+  display: none;
+}
+.button .icon-shere {
+  color: #f2295b;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+.button:hover .icon .icon-shere {
+  display: flex;
+}
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+  border: none;
+  background: none;
+}
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 10px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active svg {
+  transform: scale(0.9);
+}
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* From uiverse.io */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #b9d6f3;
+  border-radius: 1.625rem;
+}
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #96cdeb;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #fff;
+}
+
+@media (min-width: 280px) and (max-width:356px){
+  img[src$="img/puntadediamante.jpeg"]{
+      width: 200px;
+      height: 200px;
+  }
+}
+@media (min-width: 280px) and (max-width:356px){
+  img[src$="img/dermopulidocorporal.jpeg"]{
+      width: 200px;
+      height: 200px;
+  }
+}
+@media (min-width: 280px) and (max-width:460px){
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

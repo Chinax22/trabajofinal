@@ -1,0 +1,10 @@
+.encabezado{
+    h3{
+        font-family: $textSecondary;
+        font-size: 1.5em;
+        text-align: center;
+        em{
+            font-family: $textMain;
+        }
+    }
+}
